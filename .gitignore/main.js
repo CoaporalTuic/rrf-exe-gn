@@ -16,7 +16,7 @@ bot.on('ready', () => {
 
 bot.on('message', function (message) {
     if (message.content === 'Help.exe') {
-        message.channel.send('**Mes commande : \n[PDG.exe] Prise de garde \n[FDG] Fin de garde**')
+        message.channel.send('**Mes commande : \n[PDG.exe] Prise de garde \n[FDG.exe] Fin de garde**')
     }
 })
 
@@ -28,7 +28,7 @@ bot.on('message', function (message) {
 })
 
 bot.on('message', function (message) {
-    if (message.content === 'PDG.exe') {
+    if (message.content === 'FDG.exe') {
         message.reply('**Vient de finir sa garde**')
     }
 })
