@@ -11,7 +11,7 @@ app.set('port',(process.env.PORT || 5000))
 bot.on('ready', () => {
 	console.log('Bot Launched..')
 	bot.user.setStatus('Online')
-        bot.user.setActivity('800 membres', ({type: "WATCHING"}))
+        bot.user.setActivity('les gendarmes', ({type: "WATCHING"}))
 });
 
 
